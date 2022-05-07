@@ -1,5 +1,5 @@
-import Heroplain from "./premium/src/components/Heroplain/Heroplain.js";
-// import { Heroplain } from "@uiworkspace/premium";
+import Heroplain from "./heros/src/components/Heroplain/Heroplain.js";
+// import { Heroplain } from "@uiworkspace/heros";
 
 function App() {
   return (
