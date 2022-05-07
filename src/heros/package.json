@@ -1,0 +1,36 @@
+{
+  "name": "@uiworkspace/heros",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.cjs.js",
+  "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@uiworkspace"
+  },
+  "repository": {
+    "url": "git@github.com:uiworkspace/uiworkspace-heros-dist.git"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "Omar Elbaga",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/plugin-transform-runtime": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "@rollup/plugin-babel": "^5.3.1",
+    "autoprefixer": "^10.4.5",
+    "rollup": "^2.71.1",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-styles": "^4.0.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.17.9",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
