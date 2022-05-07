@@ -1,0 +1,10 @@
+@use "./mixin.scss" as mixin;
+.headline {
+  font-size: 1rem;
+  color: white;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  @include mixin.desktop {
+    font-size: 3rem;
+  }
+}
