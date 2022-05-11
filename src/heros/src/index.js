@@ -1,2 +1,3 @@
 import Heroplain from "./components/Heroplain/Heroplain.js";
-export { Heroplain };
+import HeroplainSlider from "./components/HeroplainSlider/HeroplainSlider.js";
+export { Heroplain, HeroplainSlider };
