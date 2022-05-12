@@ -1,10 +1,28 @@
 @use "./mixin.scss" as mixin;
-.headline {
-  font-size: 1rem;
-  color: white;
-  letter-spacing: 0.4em;
-  text-transform: uppercase;
+@use "./_reset.scss";
+
+body {
+  font-family: arial;
+  font-size: 0.8rem;
   @include mixin.desktop {
-    font-size: 3rem;
+    font-size: 1rem;
+  }
+}
+.nav {
+  padding: 1rem;
+  a {
+    color: black;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+h1 {
+  margin-top: 1rem;
+  font-size: 1rem;
+  letter-spacing: -0.03em;
+  @include mixin.desktop {
+    font-size: 2rem;
   }
 }

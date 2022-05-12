@@ -1,16 +1,45 @@
 .article {
   width: 100%;
   height: 100vh;
-  border: 1px solid red;
   position: relative;
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    width: 48px;
+    height: 48px;
+    &.prev {
+      left: 0.7rem;
+    }
+    &.next {
+      right: 0rem;
+    }
+    svg {
+      position: relative;
+    }
+  }
   .containerSlider {
     width: 100%;
     height: 100%;
     position: relative;
+    overflow: hidden;
     .containerSlide {
       width: 100%;
       height: 100%;
-      position: relative;
+      position: absolute;
+      opacity: 0;
+      transition: opacity ease-in-out 0.4s;
+      &.activeAnim {
+        opacity: 1;
+      }
       img {
         object-fit: cover;
         width: 100%;

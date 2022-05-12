@@ -1,33 +1,28 @@
-import HeroplainSlider from "./heros/src/components/HeroplainSlider/HeroplainSlider.js";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import HeroplainSliderDemo from "./demos/HeroplainSlider";
+import HeroplainDemo from "./demos/Heroplain";
+import Intro from "./demos/Intro";
 import "./App.scss";
-// import { Heroplain } from "@uiworkspace/heros";
 
 function App() {
-  // const heroPlainContent = {
-  //   bgcolor: "white",
-  //   bgimage: "/people.jpg",
-  //   bgimageOverlay: 0.3,
-  // };
-
-  const sliderContent = [
-    {
-      id: 1,
-      image: "/people.jpg",
-      copy: "Headline 1",
-    },
-    {
-      id: 2,
-      image: "/x1.jpg",
-      copy: "Headline 2",
-    },
-  ];
   return (
-    <div className="App">
-      {/* <Heroplain styles={heroPlainContent}>
-        <div className="headline">Explore Your World</div>
-      </Heroplain> */}
-      <HeroplainSlider content={sliderContent}></HeroplainSlider>
-    </div>
+    <>
+      <BrowserRouter>
+        <div className={`nav`}>
+          <Link to="/">Home</Link> |&nbsp;
+          <Link to="/demos/HeroplainSlider">HeroplainSlider</Link> |&nbsp;
+          <Link to="/demos/Heroplain">Heroplain</Link>
+        </div>
+        <Routes>
+          <Route path="/" element={<Intro />}></Route>
+          <Route
+            path="demos/heroplainslider"
+            element={<HeroplainSliderDemo />}
+          ></Route>
+          <Route path="demos/heroplain" element={<HeroplainDemo />}></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
