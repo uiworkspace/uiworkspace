@@ -5,7 +5,7 @@
   "main": "dist/index.cjs.js",
   "private": false,
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@uiworkspace/heros"
+    "registry": "https://npm.pkg.github.com/@uiworkspace"
   },
   "repository": {
     "url": "git@github.com:uiworkspace/uiworkspace-heros-dist.git",
