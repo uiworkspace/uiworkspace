@@ -10,7 +10,7 @@
   "repository": {
     "url": "git@github.com:uiworkspace/uiworkspace.git",
     "type": "git",
-    "directory": "src/uiworkspace-heros/dist"
+    "directory": "src/uiworkspace-heros"
   },
   "scripts": {
     "build": "rollup -c"
