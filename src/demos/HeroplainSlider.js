@@ -1,5 +1,5 @@
-import HeroplainSlider from "../heros/src/components/HeroplainSlider/HeroplainSlider.js";
-// import { HeroplainSlider } from "@uiworkspace/heros";
+// import HeroplainSlider from "../uiworkspace-heros/src/components/HeroplainSlider/HeroplainSlider.js";
+import { HeroplainSlider } from "@uiworkspace/heros";
 
 function HeroplainSliderDemo() {
   const sliderContent = {

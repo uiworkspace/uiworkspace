@@ -1,6 +1,6 @@
 {
   "name": "@uiworkspace/heros",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "main": "dist/index.cjs.js",
   "private": false,
@@ -8,7 +8,9 @@
     "registry": "https://npm.pkg.github.com/@uiworkspace"
   },
   "repository": {
-    "url": "git@github.com:uiworkspace/uiworkspace-heros-dist.git"
+    "url": "git@github.com:uiworkspace/uiworkspace.git",
+    "type": "git",
+    "directory": "src/uiworkspace-heros"
   },
   "scripts": {
     "build": "rollup -c"
