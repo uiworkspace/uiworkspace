@@ -8,9 +8,8 @@
     "registry": "https://npm.pkg.github.com/@uiworkspace"
   },
   "repository": {
-    "url": "git@github.com:uiworkspace/uiworkspace.git",
-    "type": "git",
-    "directory": "src/uiworkspace-heros/dist"
+    "url": "git@github.com:uiworkspace/uiworkspace-heros-dist.git",
+    "type": "git"
   },
   "scripts": {
     "build": "rollup -c"
