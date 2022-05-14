@@ -3,7 +3,7 @@
 # dependencies
 /node_modules
 src/*/node_modules
-src/*/dist
+# src/*/dist
 #src/layouts/node_modules
 #src/layouts/dist
 /.pnp
