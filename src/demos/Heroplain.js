@@ -1,5 +1,5 @@
 import Heroplain from "../uiworkspace-core/src/components/Heroplain/Heroplain.js";
-// import { Heroplain } from "@uiworkspace/heros";
+// import { Heroplain } from "@uiworkspace/core";
 
 function HeroplainDemo() {
   const heroPlainContent = {
