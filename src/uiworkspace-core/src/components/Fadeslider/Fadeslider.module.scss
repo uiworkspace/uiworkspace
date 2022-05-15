@@ -22,14 +22,11 @@
     &.next {
       right: 0rem;
     }
-    svg {
-      position: relative;
-    }
   }
   .containerSlider {
     width: 100%;
     height: 100%;
-    position: relative;
+    position: absolute;
     overflow: hidden;
     .containerSlide {
       width: 100%;
@@ -45,6 +42,10 @@
         width: 100%;
         height: 100%;
       }
+    }
+    .content {
+      position: relative;
+      width: 100%;
     }
   }
 }

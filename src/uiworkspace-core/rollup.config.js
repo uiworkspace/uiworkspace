@@ -57,8 +57,8 @@ MODE.map((m) => {
       }),
       copy({
         targets: [
-          { src: "./dist/", dest: "../../../uiworkspace-dist/heros/" },
-          { src: "./package.json", dest: "../../../uiworkspace-dist/heros/" },
+          { src: "./dist/", dest: "../../../uiworkspace-dist/core/" },
+          { src: "./package.json", dest: "../../../uiworkspace-dist/core/" },
         ],
       }),
     ],

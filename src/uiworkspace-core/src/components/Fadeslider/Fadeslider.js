@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import styles from "./HeroplainSlider.module.scss";
+import styles from "./Fadeslider.module.scss";
 
-function HeroplainSlider(props) {
+function Fadeslider(props) {
   let sliderContent;
 
   if (props.content.slides) {
@@ -105,10 +105,11 @@ function HeroplainSlider(props) {
               docs.
             </div>
           )}
+          <div className={styles.content}>{props.children}</div>
         </div>
       </article>
     </>
   );
 }
 
-export default HeroplainSlider;
+export default Fadeslider;

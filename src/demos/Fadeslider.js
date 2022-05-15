@@ -1,7 +1,7 @@
-// import HeroplainSlider from "../uiworkspace-heros/src/components/HeroplainSlider/HeroplainSlider.js";
-import { HeroplainSlider } from "@uiworkspace/heros";
+import Fadeslider from "../uiworkspace-core/src/components/Fadeslider/Fadeslider.js";
+// import { Fadeslider } from "@uiworkspace/core";
 
-function HeroplainSliderDemo() {
+function FadesliderDemo() {
   const sliderContent = {
     arrowColor: "white",
     width: "100%",
@@ -26,9 +26,9 @@ function HeroplainSliderDemo() {
   };
   return (
     <div>
-      <HeroplainSlider content={sliderContent}></HeroplainSlider>
+      <Fadeslider content={sliderContent}></Fadeslider>
     </div>
   );
 }
 
-export default HeroplainSliderDemo;
+export default FadesliderDemo;
