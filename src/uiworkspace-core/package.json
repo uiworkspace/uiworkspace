@@ -1,5 +1,5 @@
 {
-  "name": "uiworkspace",
+  "name": "@uiworkspace/core",
   "version": "0.1.10",
   "description": "React user interface layout components",
   "main": "dist/index.cjs.js",
@@ -8,7 +8,7 @@
     "registry": "https://npm.pkg.github.com/@uiworkspace"
   },
   "repository": {
-    "url": "git@github.com:uiworkspace/uiworkspace-dist.git",
+    "url": "git@github.com:uiworkspace/uiworkspace.git",
     "type": "git"
   },
   "scripts": {
