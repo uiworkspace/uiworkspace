@@ -1,6 +1,6 @@
 {
-  "name": "@uiworkspace",
-  "version": "0.1.8",
+  "name": "@uiworkspace/core",
+  "version": "0.1.9",
   "description": "React user interface layout components",
   "main": "dist/index.cjs.js",
   "private": false,
