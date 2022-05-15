@@ -8,7 +8,7 @@
     "registry": "https://npm.pkg.github.com/@uiworkspace"
   },
   "repository": {
-    "url": "git@github.com:uiworkspace/uiworkspace.git",
+    "url": "git@github.com:uiworkspace/uiworkspace-dist.git",
     "type": "git"
   },
   "scripts": {
