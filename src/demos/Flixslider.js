@@ -1,5 +1,5 @@
 import Flixslider from "../uiworkspace-sliders/src/components/Flixslider/Flixslider.js";
-// import { Fadeslider } from "@uiworkspace/sliders";
+// import { Flixslider } from "@uiworkspace/sliders";
 
 function FlixsliderDemo() {
   const content = {
