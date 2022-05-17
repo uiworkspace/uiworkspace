@@ -1,5 +1,5 @@
-import Fadeslider from "../uiworkspace-sliders/src/components/Fadeslider/Fadeslider.js";
-// import { Fadeslider } from "@uiworkspace/sliders";
+// import Fadeslider from "../uiworkspace-sliders/src/components/Fadeslider/Fadeslider.js";
+import { Fadeslider } from "@uiworkspace/sliders";
 
 function FadesliderDemo() {
   const sliderContent = {

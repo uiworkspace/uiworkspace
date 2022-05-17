@@ -59,6 +59,7 @@ MODE.map((m) => {
         targets: [
           { src: "./dist/", dest: "../../../uiworkspace-dist/core/" },
           { src: "./package.json", dest: "../../../uiworkspace-dist/core/" },
+          { src: "./README.md", dest: "../../../uiworkspace-dist/core/" },
         ],
       }),
     ],

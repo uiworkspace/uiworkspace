@@ -11,7 +11,7 @@ function App() {
         <div className={`nav`}>
           <Link to="/">Home</Link> |&nbsp;
           <Link to="/demos/fadeslider">Fadeslider</Link> |&nbsp;
-          <Link to="/demos/Heroplain">Heroplain</Link>
+          <Link to="/demos/heroplain">Heroplain</Link>
         </div>
         <Routes>
           <Route path="/" element={<Intro />}></Route>

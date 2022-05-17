@@ -1,6 +1,6 @@
 {
   "name": "@uiworkspace/sliders",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": "React user interface layout components",
   "main": "dist/index.cjs.js",
   "private": false,
@@ -19,13 +19,13 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.17.10",
-    "@babel/core": "^7.17.12",
-    "@babel/plugin-transform-runtime": "^7.17.12",
-    "@babel/preset-env": "^7.17.12",
-    "@babel/preset-react": "^7.17.12",
+    "@babel/core": "^7.17.10",
+    "@babel/plugin-transform-runtime": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
     "@rollup/plugin-babel": "^5.3.1",
-    "autoprefixer": "^10.4.7",
-    "rollup": "^2.73.0",
+    "autoprefixer": "^10.4.5",
+    "rollup": "^2.71.1",
     "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-sourcemaps": "^0.6.3",
     "rollup-plugin-styles": "^4.0.0"
