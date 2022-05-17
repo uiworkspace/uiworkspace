@@ -8,6 +8,45 @@ A library of pre-built website hero components you can place on any react site.
 npm i @uiworkspace/sliders
 ```
 
+## Example usage of the Flixslider component
+
+```python
+import { Flixslider } from '@uiworkspace/sliders'
+
+export default function Yourcomponent() {
+
+  const content = {
+    offsetPercentage: 4,
+    showOffsetOverlay: true,
+    transitionSpeed: 0.45,
+    mobileslidesPerScreen: 2,
+    desktopslidesPerScreen: 3,
+    images: [
+      {
+        imglink: "https://picsum.photos/500/500?grayscale",
+      },
+      {
+        imglink: "https://picsum.photos/500/500?grayscale",
+      },
+      {
+        imglink: "https://picsum.photos/500/500?grayscale",
+      },
+      {
+        imglink: "https://picsum.photos/500/500?grayscale",
+      },
+      {
+        imglink: "https://picsum.photos/500/500?grayscale",
+      },
+      {
+        imglink: "https://picsum.photos/500/500?grayscale",
+      },
+    ],
+  };
+
+   return <Flixslider content={content} />
+}
+```
+
 ## Example usage of the Fadeslider component
 
 ```python

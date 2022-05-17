@@ -1,2 +1,3 @@
 import Fadeslider from "./components/Fadeslider/Fadeslider.js";
-export { Fadeslider };
+import Flixslider from "./components/Flixslider/Flixslider.js";
+export { Fadeslider, Flixslider };
