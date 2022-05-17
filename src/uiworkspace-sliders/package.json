@@ -1,6 +1,6 @@
 {
   "name": "@uiworkspace/sliders",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "React user interface layout components",
   "main": "dist/index.cjs.js",
   "private": false,

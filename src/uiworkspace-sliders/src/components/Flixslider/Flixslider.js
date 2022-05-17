@@ -93,9 +93,10 @@ function Flixslider(props) {
               transition: `transform ${transitionSpeed}s`,
             }}
           >
-            {images.map((item) => {
+            {images.map((item, index) => {
               return (
                 <Slide
+                  key={index}
                   imglink={item.imglink}
                   percentofScreen={percentofScreen}
                 />

@@ -81,7 +81,7 @@ function Fadeslider(props) {
             sliderContent.map((obj, index) => {
               return (
                 <div
-                  key={obj.id}
+                  key={index}
                   className={`${styles.containerSlide} ${
                     slideIndex === index + 1 ? styles.activeAnim : ""
                   }`}
