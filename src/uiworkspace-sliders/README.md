@@ -1,12 +1,10 @@
 # @uiworkspace/sliders
 
-A library of pre-built website hero components you can place on any react site. This section is for the slider components
+A library of pre-built slider components you can place on any react site.
 
-## Flixslider demo
+## Demos
 
 - [Flixslider Demo](https://uiworkspace.com/component/flixslider)
-
-## Fadeslider demo
 
 - [Fadeslider Demo](https://uiworkspace.com/component/fadeslider)
 
@@ -16,7 +14,7 @@ A library of pre-built website hero components you can place on any react site. 
 npm i @uiworkspace/sliders
 ```
 
-## Flixslider component usage
+## Flixslider usage
 
 Note: Your total images should be at least double your specified amount per screen.
 
@@ -57,7 +55,7 @@ export default function Yourcomponent() {
 }
 ```
 
-## Fadeslider component usage
+## Fadeslider usage
 
 ```python
 import { Fadeslider } from '@uiworkspace/sliders'
