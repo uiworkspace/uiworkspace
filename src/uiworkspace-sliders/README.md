@@ -10,6 +10,8 @@ npm i @uiworkspace/sliders
 
 ## Example usage of the Flixslider component
 
+Your total images should be at least double your specified amount per screen.
+
 ```python
 import { Flixslider } from '@uiworkspace/sliders'
 
@@ -47,6 +49,10 @@ export default function Yourcomponent() {
 }
 ```
 
+## Flixslider demo
+
+- [Flixslider Demo](https://uiworkspace.com/component/flixslider)
+
 ## Example usage of the Fadeslider component
 
 ```python
@@ -60,15 +66,12 @@ export default function Yourcomponent() {
     height: "100vh", //optional
     slides: [
       {
-        id: 1,
         image: "/photo1.jpg", //root url of photo
       },
       {
-        id: 2,
         image: "/photo2.jpg",
       },
       {
-        id: 3,
         image: "/photo3.jpg",
       },
     ],
@@ -77,6 +80,10 @@ export default function Yourcomponent() {
    return <Fadeslider content={sliderContent}></Fadeslider>
 }
 ```
+
+## Fadeslider demo
+
+- [Fadeslider Demo](https://uiworkspace.com/component/fadeslider)
 
 ## Contact
 
