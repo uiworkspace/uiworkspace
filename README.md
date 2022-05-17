@@ -14,4 +14,4 @@ For support contact us at hello@uiworkspace.com
 
 ## License
 
-Non-exclusive license from uiworkspace.com
+Non-exclusive license from uiworkspace.com.
