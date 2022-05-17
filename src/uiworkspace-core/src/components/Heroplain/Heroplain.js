@@ -8,7 +8,7 @@ function Heroplain(props) {
   let bgcolorDefaultValue = "white";
   let bgimageDefaultValue =
     "https://uiworkspace.com/images/uiw-placeholder1.jpg";
-  let bgimageOverlayDefaultValue = 0.3;
+  let bgimageOverlayDefaultValue = 0;
 
   if (props.styles) {
     if (props.styles.bgcolor) {

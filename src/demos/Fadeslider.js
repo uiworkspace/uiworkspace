@@ -10,17 +10,14 @@ function FadesliderDemo() {
       {
         id: 1,
         image: "/people.jpg",
-        copy: "Headline 1",
       },
       {
         id: 2,
         image: "/x1.jpg",
-        copy: "Headline 2",
       },
       {
         id: 3,
         image: "/x2.jpg",
-        copy: "Headline 3",
       },
     ],
   };

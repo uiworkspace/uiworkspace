@@ -3,9 +3,9 @@ import Heroplain from "../uiworkspace-core/src/components/Heroplain/Heroplain.js
 
 function HeroplainDemo() {
   const heroPlainContent = {
-    bgcolor: "white",
     bgimage: "/people.jpg",
-    bgimageOverlay: 0.3,
+    bgcolor: "white", //optional
+    bgimageOverlay: 0.2, //optional
   };
 
   return (

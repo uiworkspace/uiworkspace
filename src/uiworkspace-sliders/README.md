@@ -16,24 +16,21 @@ import { Fadeslider } from '@uiworkspace/sliders'
 export default function Yourcomponent() {
 
   const sliderContent = {
-    arrowColor: "white",
-    width: "100%",
-    height: "100vh",
+    arrowColor: "white", //optional css color
+    width: "100%", //optional
+    height: "100vh", //optional
     slides: [
       {
         id: 1,
-        image: "/people.jpg",
-        copy: "Headline 1",
+        image: "/photo1.jpg", //root url of photo
       },
       {
         id: 2,
-        image: "/x1.jpg",
-        copy: "Headline 2",
+        image: "/photo2.jpg",
       },
       {
         id: 3,
-        image: "/x2.jpg",
-        copy: "Headline 3",
+        image: "/photo3.jpg",
       },
     ],
   };
