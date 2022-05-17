@@ -60,6 +60,7 @@ MODE.map((m) => {
           { src: "./dist/", dest: "../../../uiworkspace-dist/sliders/" },
           { src: "./package.json", dest: "../../../uiworkspace-dist/sliders/" },
           { src: "./README.md", dest: "../../../uiworkspace-dist/sliders/" },
+          { src: "./.npmignore", dest: "../../../uiworkspace-dist/sliders/" },
         ],
       }),
     ],

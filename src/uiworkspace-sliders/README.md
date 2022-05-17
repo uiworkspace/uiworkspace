@@ -5,23 +5,40 @@ A library of pre-built website hero components you can place on any react site.
 ## Installation
 
 ```bash
-npm i @uiworkspace/heros
+npm i @uiworkspace/sliders
 ```
 
-## Example usage of the Heroplain component
+## Example usage of the Fadeslider component
 
 ```python
-import { Heroplain } from '@uiworkspace/heros'
+import { Fadeslider } from '@uiworkspace/sliders'
 
 export default function Yourcomponent() {
 
-   const heroPlainContent = {
-    bgcolor: "white", //color
-    bgimage: "/image.jpg", //image
-    bgimageOverlay: 0.3, //overlay
+  const sliderContent = {
+    arrowColor: "white",
+    width: "100%",
+    height: "100vh",
+    slides: [
+      {
+        id: 1,
+        image: "/people.jpg",
+        copy: "Headline 1",
+      },
+      {
+        id: 2,
+        image: "/x1.jpg",
+        copy: "Headline 2",
+      },
+      {
+        id: 3,
+        image: "/x2.jpg",
+        copy: "Headline 3",
+      },
+    ],
   };
 
-   return <Heroplain>Explore Your World</Heroplain>
+   return <Fadeslider content={sliderContent}></Fadeslider>
 }
 ```
 
@@ -31,4 +48,4 @@ For support contact us at hello@uiworkspace.com
 
 ## License
 
-Non-exclusive with yearly subscription from https://www.uiworkspace.com
+Non-exclusive license from https://www.uiworkspace.com

@@ -1,21 +1,31 @@
 {
   "name": "@uiworkspace/core",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "React user interface layout components",
   "main": "dist/index.cjs.js",
   "private": false,
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@uiworkspace"
+    "registry": "https://registry.npmjs.org/@uiworkspace"
   },
   "repository": {
     "url": "git@github.com:uiworkspace/uiworkspace.git",
-    "type": "git"
+    "type": "git",
+    "directory": "src/uiworkspace-core"
   },
   "scripts": {
     "build": "rollup -c"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "next",
+    "nextjs",
+    "ui",
+    "components",
+    "library",
+    "frontend"
+  ],
   "author": "Omar Elbaga",
+  "homepage": "https://uiworkspace.com/",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.17.10",

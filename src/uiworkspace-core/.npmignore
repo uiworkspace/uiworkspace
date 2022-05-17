@@ -8,6 +8,7 @@ node_modules
 ## incase you have a git repositiory initiated
 .git
 .gitignore
+.github
 CVS
 .svn
 .hg
