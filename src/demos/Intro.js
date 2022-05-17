@@ -17,7 +17,7 @@ function Intro() {
   return (
     <div style={pageStyles}>
       <img src={logo} alt="uiworkspace logo" style={imgStyles} />
-      <h1>Welcome to uiworkspace 0.1.0 Demos</h1>
+      <h1>Welcome to uiworkspace Demos</h1>
     </div>
   );
 }
