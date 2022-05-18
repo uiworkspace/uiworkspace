@@ -10,22 +10,22 @@ function FlixsliderDemo() {
     desktopslidesPerScreen: 3,
     images: [
       {
-        imglink: "https://picsum.photos/500/500?grayscale",
+        imglink: "/photos/photo1.jpg",
       },
       {
-        imglink: "https://picsum.photos/500/500?grayscale",
+        imglink: "/photos/photo2.jpg",
       },
       {
-        imglink: "https://picsum.photos/500/500?grayscale",
+        imglink: "/photos/photo3.jpg",
       },
       {
-        imglink: "https://picsum.photos/500/500?grayscale",
+        imglink: "/photos/photo4.jpg",
       },
       {
-        imglink: "https://picsum.photos/500/500?grayscale",
+        imglink: "/photos/photo5.jpg",
       },
       {
-        imglink: "https://picsum.photos/500/500?grayscale",
+        imglink: "/photos/photo6.jpg",
       },
     ],
   };

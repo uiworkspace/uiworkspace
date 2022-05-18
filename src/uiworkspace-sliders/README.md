@@ -23,7 +23,7 @@ import { Flixslider } from '@uiworkspace/sliders'
 
 export default function Yourcomponent() {
 
-  const content = {
+  const sliderContent = {
     offsetPercentage: 4,
     showOffsetOverlay: true,
     transitionSpeed: 0.45,
@@ -31,27 +31,27 @@ export default function Yourcomponent() {
     desktopslidesPerScreen: 3,
     images: [
       {
-        imglink: "https://picsum.photos/500/500?grayscale",
+        imglink: "/images/photo.jpg", //path to image
       },
       {
-        imglink: "https://picsum.photos/500/500?grayscale",
+        imglink: "/images/photo.jpg",
       },
       {
-        imglink: "https://picsum.photos/500/500?grayscale",
+        imglink: "/images/photo.jpg",
       },
       {
-        imglink: "https://picsum.photos/500/500?grayscale",
+        imglink: "/images/photo.jpg",
       },
       {
-        imglink: "https://picsum.photos/500/500?grayscale",
+        imglink: "/images/photo.jpg",
       },
       {
-        imglink: "https://picsum.photos/500/500?grayscale",
+        imglink: "/images/photo.jpg",
       },
     ],
   };
 
-   return <Flixslider content={content} />
+   return <Flixslider content={sliderContent} />
 }
 ```
 
@@ -63,18 +63,18 @@ import { Fadeslider } from '@uiworkspace/sliders'
 export default function Yourcomponent() {
 
   const sliderContent = {
-    arrowColor: "white", //optional css color
+    arrowColor: "white", //optional
     width: "100%", //optional
     height: "100vh", //optional
     slides: [
       {
-        image: "/photo1.jpg", //root url of photo
+        image: "/images/photo.jpg", //path to image
       },
       {
-        image: "/photo2.jpg",
+        image: "/images/photo.jpg",
       },
       {
-        image: "/photo3.jpg",
+        image: "/images/photo.jpg",
       },
     ],
   };
@@ -85,8 +85,8 @@ export default function Yourcomponent() {
 
 ## Contact
 
-For support contact us at hello@uiworkspace.com
+Email: [hello@uiworkspace.com](mailto:hello@uiworkspace.com)
 
 ## License
 
-Non-exclusive license from https://www.uiworkspace.com
+Non-exclusive license from [uiworkspace.com](https://uiworkspace.com)

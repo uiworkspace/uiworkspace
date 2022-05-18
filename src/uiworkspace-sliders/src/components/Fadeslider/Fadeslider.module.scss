@@ -33,7 +33,9 @@
       height: 100%;
       position: absolute;
       opacity: 0;
+      -webkit-transition: opacity ease-in-out 0.4s;
       transition: opacity ease-in-out 0.4s;
+      visibility: visible;
       &.activeAnim {
         opacity: 1;
       }

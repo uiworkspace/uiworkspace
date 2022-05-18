@@ -10,8 +10,8 @@ npm i @uiworkspace/<componentcategory>
 
 ## Contact
 
-For support contact us at hello@uiworkspace.com
+Email: [hello@uiworkspace.com](mailto:hello@uiworkspace.com)
 
 ## License
 
-Non-exclusive license from uiworkspace.com.
+Non-exclusive license from [uiworkspace.com](https://uiworkspace.com)

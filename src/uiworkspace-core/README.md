@@ -16,9 +16,9 @@ import { Heroplain } from '@uiworkspace/core'
 export default function Yourcomponent() {
 
    const heroPlainContent = {
-    bgimage: "/image.jpg", //root path of image
-    bgcolor: "white", //optional background color
-    bgimageOverlay: 0.3, //optional overlay
+    bgimage: "/image.jpg", //path to image
+    bgcolor: "white", //optional
+    bgimageOverlay: 0.3, //optional
   };
 
    return <Heroplain>Explore Your World</Heroplain>
@@ -27,8 +27,8 @@ export default function Yourcomponent() {
 
 ## Contact
 
-For support contact us at hello@uiworkspace.com
+Email: [hello@uiworkspace.com](mailto:hello@uiworkspace.com)
 
 ## License
 
-Non-exclusive license from https://www.uiworkspace.com
+Non-exclusive license from [uiworkspace.com](https://uiworkspace.com)
