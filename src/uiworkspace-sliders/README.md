@@ -64,6 +64,8 @@ export default function Yourcomponent() {
 
   const sliderContent = {
     arrowColor: "white", //optional
+    customRightArrow: "", //optional
+    customLeftArrow: "", //optional
     width: "100%", //optional
     height: "100vh", //optional
     slides: [
@@ -80,6 +82,36 @@ export default function Yourcomponent() {
   };
 
    return <Fadeslider content={sliderContent}></Fadeslider>
+}
+```
+
+## Parallax slider usage
+
+```python
+import { Parallaxslider } from '@uiworkspace/sliders'
+
+export default function Yourcomponent() {
+
+  const sliderContent = {
+    arrowColor: "white", //optional
+    customRightArrow: "", //optional
+    customLeftArrow: "", //optional
+    width: "100%", //optional
+    height: "80vh", //optional
+    slides: [ //required
+      {
+        image: "/images/x.jpg",
+      },
+      {
+        image: "/images/x1.jpg",
+      },
+      {
+        image: "/images/x2.jpg",
+      },
+    ],
+  };
+
+   return <Parallaxslider content={sliderContent} />
 }
 ```
 

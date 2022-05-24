@@ -1,3 +1,4 @@
 import Fadeslider from "./components/Fadeslider/Fadeslider.js";
 import Flixslider from "./components/Flixslider/Flixslider.js";
-export { Fadeslider, Flixslider };
+import Parallaxslider from "./components/Parallaxslider/Parallaxslider.js";
+export { Fadeslider, Flixslider, Parallaxslider };

@@ -4,6 +4,8 @@ import styles from "./Fadeslider.module.scss";
 function Fadeslider(props) {
   let sliderContent;
 
+  let customLeftArrow = "";
+  let customRightArrow = "";
   if (props.content.slides) {
     sliderContent = props.content.slides;
   }
@@ -28,7 +30,12 @@ function Fadeslider(props) {
   } else {
     height = "100vh";
   }
-
+  if (props.content.customLeftArrow.length > 0) {
+    customLeftArrow = props.content.customLeftArrow;
+  }
+  if (props.content.customRightArrow.length > 0) {
+    customRightArrow = props.content.customRightArrow;
+  }
   const [slideIndex, setSlideIndex] = useState(1);
   const nextSlide = () => {
     if (slideIndex !== sliderContent.length) {
@@ -58,23 +65,31 @@ function Fadeslider(props) {
           className={`${styles.arrow} ${styles.next}`}
           onClick={nextSlide}
         >
-          <svg xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M15.2 43.9 12.4 41.05 29.55 23.9 12.4 6.75 15.2 3.9 35.2 23.9Z"
-              style={svgStyles}
-            />
-          </svg>
+          {customRightArrow ? (
+            <img src={`${customRightArrow}`} alt="Right Arrow" />
+          ) : (
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M15.2 43.9 12.4 41.05 29.55 23.9 12.4 6.75 15.2 3.9 35.2 23.9Z"
+                style={svgStyles}
+              />
+            </svg>
+          )}
         </button>
         <button
           className={`${styles.arrow} ${styles.prev}`}
           onClick={prevSlide}
         >
-          <svg xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M20 44 0 24 20 4 22.8 6.85 5.65 24 22.8 41.15Z"
-              style={svgStyles}
-            />
-          </svg>
+          {customLeftArrow ? (
+            <img src={`${customLeftArrow}`} alt="Left Arrow" />
+          ) : (
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M20 44 0 24 20 4 22.8 6.85 5.65 24 22.8 41.15Z"
+                style={svgStyles}
+              />
+            </svg>
+          )}
         </button>
         <div className={styles.containerSlider}>
           {sliderContent.length > 0 ? (
